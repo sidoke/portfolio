@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@font-face{
+	font-family: "JetBrainsMono";
+	src: url(fonts/JetBrainsMonoNL-Bold.ttf) format("truetype");
+	font-weight: bold;
+}
 
 *
 {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Poppins',sans-serif;	
+	font-family: 'JetBrainsMono',sans-serif;	
 }
 body
 {
