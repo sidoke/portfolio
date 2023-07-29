@@ -672,6 +672,13 @@
 	justify-content: center;
 	margin-bottom: 3rem;
   }
+  .space-1{
+	margin-top: 300px;
+	   
+  }
+  h2.Edu-heading:nth-child(7) {
+	margin-bottom: 110px;
+   }
   /* .......................End Footer Section......................... */
   
   
