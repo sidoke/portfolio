@@ -76,12 +76,10 @@ header.sticky ul li a
 {
 	position: relative;
 	padding: 20px;
-	width: 100%;
-	min-height: 100vh;
-	background: url(bg.png);
+	height: 900px;
+	background: url(./bg.png);
 	background-size: cover;
 	display: flex;
-	justify-content: legacy right;
 	align-items: center;
 }
 .banner h2
