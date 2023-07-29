@@ -1,73 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>.sudarshan()</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudarshan Doke 😎</title>
+  <!-- ....................Custom Css Link.................... -->
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-	<!-- Header -->
-	<header id="header">
-		<a href="#" class="logo">LOGO</a>
-		<ul>
-			<li><a href="#home">.me()</a></li>
-			<li><a href="#info">.info()</a></li>
-			<li><a href="#edu">.edu()</a></li>
-			<li><a href="#contact">.contact()</a></li>
-		</ul>
-	</header>
-	<!-- Banner -->
-	<section class="banner" id="home">
-		<h2>Hello There, Its <br><span>Sudarshan Doke</span></h2>
-	</section>
-	<!-- Info / career obj -->
-	<div class="information" id="info">
-		<h2>Technical Skills</h2>
-		<ul>
-			<li><h2>C</h2></li>
-			<li><h2>C++</h2></li>
-			<li><h2>C#</h2></li>
-			<li><h2>Java</h2></li>
-			<li><h2>HTML</h2></li>
-			<li><h2>SQL</h2></li>
-			<li><h2>javascript</h2></li>
-		</ul>
-		<h2>Softwares -</h2>
-		<ul>
-			<li><h2>Unity 3D</h2></li>
-			<li><h2>Blender</h2></li>
-			<li><h2>Unreal Engine</h2></li>
-			<li><h2>Adobe Photoshop</h2></li>
-			<li><h2>MS Office</h2></li>
-		</ul>
-	</div>
-	<!-- Edu -->
-	<section class="edu" id="edu">
-		<h2>Education -</h2>
-		<h2>10th Grade(Secondary School Certificate)</h2>
-		<a>@ Shri Shivaji Vidyaniketan, Rahuri Factory, Ahmednagar, MH(IND)</a>
-		<a>Batch - 2016</a>
-		<a>Marks - 77.20%</a>
-		<h2>12th Grade(Higher Secondary School Certificate)</h2>
-		<a>@ Dr. Padmashri Vikhe Patil College of Arts, Commerse & Science, Pravara nagar, Ahmednagar, MH(IND)</a>
-		<a>Batch - (2016 - 2018)</a>
-		<a>Marks - 55.08%</a>
-		<h2>Diploma in Computer Engineering(MSBTE)</h2>
-		<a>@ Dr. D. Y. Patil Polytechnic, Kolhapur, MH(IND)</a>
-		<a>Batch - (2018 - 2020)</a>
-		<a>Marks - 81.66%</a>
-		<h2>B. Tech in Computer Science & Technology</h2>
-		<a>@ D. Y. Patil College of Engineering & Technology, Kasaba Bawada, Kolhapur, MH(IND)</a>
-		<a>Batch - (2020 - 2023)</a>
-		<a>Marks - 75.38% (till 7th Semester)</a>
-	</section>
-	<!-- Contact -->
-	<script type="text/javascript">
-		window.addEventListener("scroll", function() {
-			var header = document.querySelector("header");
-			header.classList.toggle("sticky",window.scrollY > 0);
-		})
-	</script>
+  <!-- ....................Start Nav Bar.................... -->
+  <nav>
+    <div class="container nav-container">
+      <a href="" class="logo">Sudarshan Doke</a>
+      <ul class="nav-links">
+        <li><a href="#About">About</a></li>
+        <li><a href="#Experiences">Experiences</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- ....................End Nav Bar.................... -->
+
+
+  <!-- ....................Start Header Section.................... -->
+  <header>
+    <div class="container header-container">
+      <div class="header-left">
+        <img class="header-right profile" src="./img/profilepic.jpg" alt="">
+      </div>
+      <div class="header-right">
+        <p><b>Hello, I'm</b></p>
+        <h1>Sudarshan Doke</h1>
+        <h2 aria-label="Hi! I'm a developer">
+          Hi! I'm a&nbsp;<span class="typewriter"></span>
+        </h1>
+        <div class="header-action-aria">
+          <a href="" class="btn" download="./img/CV.pdf">Download CV</a>
+          <a href="#Contact" class="btn btn-dark">Contact info</a>              
+        </div>
+        <div class="header-social">
+          <a href=""><img src="./img/linkedin.png" class="icon1"></a>
+          <a href=""><img src="./img/github.png" class="icon1"></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ....................End Header Section.................... -->
+
+
+  <!-- ....................Start About Section.................... -->
+  <section id="About">
+    <p class="heading-p">Get To Know More</p>
+    <h1 class="heading">About Me</h1>
+    <h2 class="Edu-heading">🏅 Education Timeline</h2>
+    <ul class="timeline">
+      <li>
+        <div class="direction-r">
+          <div class="flag-wrapper">
+            <span class="flag">Secondary School Certificate 10<sup>th</span>
+            <span class="time-wrapper"><span class="time">Batch 2016</span></span>
+          </div>
+          <div class="desc">@ Shri Shivaji Vidyaniketan, Rahuri, Ahmednagar<br>Marks : 77.20%</div>
+        </div>
+      </li>
+      <li>
+        <div class="direction-l">
+          <div class="flag-wrapper">
+            <span class="flag">Higher Secondary Certificate 12<sup>th</span>
+            <span class="time-wrapper"><span class="time">2016 - 2018 (HSC Board)</span></span>
+          </div>
+          <div class="desc">@ P. V. P. College of Arts, Commerce & Science, Loni, Ahmednagar<br>Marks : 55.08%</div>
+        </div>
+      </li>
+      <li>
+        <div class="direction-r">
+          <div class="flag-wrapper">
+            <span class="flag">Diploma in Computer Engineering</span>
+            <span class="time-wrapper"><span class="time">2018 - 2020 (MSBTE)</span></span>
+          </div>
+          <div class="desc">@ Dr. D. Y. Patil Polytechnic, Kolhapur<br>Marks : 81.66%</div>
+        </div>
+      </li>
+      <li>
+        <div class="direction-l">
+          <div class="flag-wrapper">
+            <span class="flag">B. Tech in CSE (Shivaji University)</span>
+            <span class="time-wrapper"><span class="time">2020- 2023</span></span>
+          </div>
+          <div class="desc">@ D. Y. Patil College of Engineering & Technology, Kolhapur<br>Marks : 75.38% (till 7<sup>th</sup> Sem)<br>CGPA : 8.02</div>
+        </div>
+      </li>
+      
+    </ul>
+    <div class="container about-container">
+      <div class="about-left">
+        <img src="./img/profile-pic1.JPG" alt="">
+      </div>
+      <div class="about-right">
+        <h2 class="Skills-heading">Technologies Mastered</h2>
+        
+        <div class="basic-edu">
+          <div class="edu-box">
+            <!--<img src="./img/experience.png" class="icon1">-->
+            <h4>Unity 3D</h4>
+            <p>
+              2+ years <br>
+              Frontend Development              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+  <!-- ....................End About Section.................... -->
+
 </body>
 </html>
